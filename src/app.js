@@ -5,10 +5,8 @@ const mysql = require('mysql');
 const session = require('express-session');
 const bodyParser = require('body-parser')
 const loginRoutes = require('./routes/login');
-const { redirect } = require('express/lib/response');
-
 const app = express();
-app.set('port', 5000);
+app.set('port', 5001);
 
 app.set('views', __dirname + '/views');
 app.engine('.hbs', engine({

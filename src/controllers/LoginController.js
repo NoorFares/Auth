@@ -23,11 +23,11 @@ function index(req, res) {
         } else {
           console.log('not');
         }
-        /*
+        
         req.session.loggedin = true;
       req.session.name = name;
   
-    res.redirect('/');*/
+    res.redirect('/');
         
       });
     });
